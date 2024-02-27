@@ -1,0 +1,5 @@
+require "custom.configs.clangd"
+require "custom.configs.python"
+require "custom.configs.cmake"
+require "custom.configs.bashls"
+require "custom.configs.haskell"
