@@ -45,6 +45,13 @@ M.copilot = {
       "Copilot Accept",
       {replace_keycodes = true, nowait=true, silent=true, expr=true, noremap=true}
     },
+    ["<C-e>"] = {
+      function ()
+        vim.fn.feedkeys(vim.fn['copilot#AcceptWord'](), '')
+      end,
+      "Copilot Accept Word ",
+      {replace_keycodes = true, nowait=true, silent=true, expr=true, noremap=true}
+    }
   }
 }
 

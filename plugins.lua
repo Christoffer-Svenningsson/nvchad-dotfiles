@@ -1,7 +1,9 @@
 local cmp = require "cmp"
 
 local plugins = {
-
+  {
+    "nvim-neotest/nvim-nio"
+  },
   {
     "github/copilot.vim",
     lazy = false,
